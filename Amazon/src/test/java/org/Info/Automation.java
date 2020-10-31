@@ -1,4 +1,4 @@
-package org.Info;
+
 
 public class Automation extends BaseClass{
 
@@ -6,7 +6,7 @@ public class Automation extends BaseClass{
 			public static void main(String[] args) {
 	AppLaunch();
 				URL u= new URL("http://0.0.0.0:4723");
-				Pojo p = new pojo();
+				Pojo p = new Pojo();
 				fill.(p.getEmail(),"nkr@gmail.com");
 				fill.(p.getPass(),"njli89");
 				keyEvent k= new keyEvent(Androidkey.Enter);
